@@ -12,8 +12,6 @@ Install dependencies by running `yarn`, then create a new file in the root direc
 MOVIE_DB_API_V3_KEY=<insert your movie database v3 api key here>
 # OR
 MOVIE_DB_API_V4_KEY=<insert your movie database v4 api key here>
-
-APOLLO_KEY=<insert your apollo studio api key here>
 ```
 
 Once that's done, you can now start up a development server using `yarn start`. By default this will use Serverless Offline, but if you would instead like to use Netlify Lamba, you can run `yarn start:netlify` instead. Once the development server is listening, you can pull up a GraphQL Playground by visiting one of the following URLs:
